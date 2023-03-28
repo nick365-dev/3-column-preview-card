@@ -29,6 +29,13 @@ font-family: 'Big Shoulders Display', cursive;*/
     /*align-items: center;*/
 }
 
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
 .container-sedan{
     background-color: hsl(31, 77%, 52%);
     width: 16rem;
